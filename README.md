@@ -1,10 +1,14 @@
 # Haikuable
 
 > Garth: "Does anyone else find this weird? I mean, we're looking down on Wayne's basement. Only that's not Wayne's basement. Isn't that weird?"
+>
 > Everyone: "That's weird…"
+>
 > Wayne: "Garth, that was a haiku!"
 
-True to the simplicity and elegance of the Japanese poetic form, haikuable is a very simple gem. It has a single method. It takes a string, and returns a boolean based on whether or not that string is a haiku.
+True to the simplicity and elegance of the [Japanese poetic form](http://en.wikipedia.org/wiki/Haiku), haikuable is a very simple gem. It has a single method. It takes a string, and returns a boolean based on whether or not that string is a haiku.
+
+Currently, `haikuable` only supports the traditional 5, 7, 5 haiku format. If you need configurability, feel free to [file an issue](https://github.com/thenickcox/haikuable).
 
 ## Usage
 
