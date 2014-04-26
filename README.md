@@ -6,6 +6,8 @@
 >
 > Wayne: "Garth, that was a haiku!"
 
+<cite>[Wayne's World](http://www.imdb.com/title/tt0105793/?ref_=nv_sr_1), 1992</cite>
+
 True to the simplicity and elegance of the [Japanese poetic form](http://en.wikipedia.org/wiki/Haiku), haikuable is a very simple gem. It has a single method. It takes a string, and returns a boolean based on whether or not that string is a haiku.
 
 Currently, `haikuable` only supports the traditional 5, 7, 5 haiku format. If you need configurability, feel free to [file an issue](https://github.com/thenickcox/haikuable).
