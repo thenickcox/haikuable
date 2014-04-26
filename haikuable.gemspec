@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['nick@nickcox.me']
   spec.description   = %q{Haiku}
   spec.summary       = %q{Test the haikuability of a string}
-  spec.homepage      = 'github.com/thenickcox/haikuable'
+  spec.homepage      = 'http://github.com/thenickcox/haikuable'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

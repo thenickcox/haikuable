@@ -1,6 +1,21 @@
 # Haikuable
 
-TODO: Write a gem description
+> Garth: "Does anyone else find this weird? I mean, we're looking down on Wayne's basement. Only that's not Wayne's basement. Isn't that weird?"
+> Everyone: "That's weird…"
+> Wayne: "Garth, that was a haiku!"
+
+True to the simplicity and elegance of the Japanese poetic form, haikuable is a very simple gem. It has a single method. It takes a string, and returns a boolean based on whether or not that string is a haiku.
+
+## Usage
+
+```bash
+>> require 'haikuable'
+=> true
+>> poem = 'at the age old pond a frog leaps into water a deep resonance'
+=> "at the age old pond a frog leaps into water a deep resonance"
+>> Haikuable::Checker.new(poem).is_haiku?
+=> true
+```
 
 ## Installation
 
@@ -15,10 +30,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install haikuable
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
