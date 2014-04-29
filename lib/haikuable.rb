@@ -44,3 +44,9 @@ module Haikuable
 
   end
 end
+
+class String
+  def is_haiku?
+    Haikuable::Checker.new(self).is_haiku?
+  end
+end

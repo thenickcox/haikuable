@@ -14,12 +14,14 @@ Currently, `haikuable` only supports the traditional 5, 7, 5 haiku format. If yo
 
 ## Usage
 
+Require the gem, and call `is_haiku?` on a string.
+
 ```bash
 >> require 'haikuable'
 => true
 >> poem = 'at the age old pond a frog leaps into water a deep resonance'
 => "at the age old pond a frog leaps into water a deep resonance"
->> Haikuable::Checker.new(poem).is_haiku?
+>> poem.is_haiku?
 => true
 ```
 

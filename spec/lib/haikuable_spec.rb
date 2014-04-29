@@ -38,4 +38,9 @@ describe Haikuable::Checker do
       it { should be_true }
     end
   end
+
+  context 'string method' do
+    subject { 'puppies and kittens'.is_haiku? }
+    it { should be_false }
+  end
 end
