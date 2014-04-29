@@ -28,7 +28,7 @@ describe Haikuable::Checker do
         it { should be_false }
       end
       context '5 5 7' do
-        let(:string) { 'I like puppy dogs. Kittens are cute, too. Gerbils and hamsters? No thanks.' }
+        let(:string) { 'I like puppy dogs. Kittens are cute, too. Automobiles are dumb.' }
         it { should be_false }
       end
     end

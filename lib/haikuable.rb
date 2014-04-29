@@ -39,7 +39,7 @@ module Haikuable
     end
 
     def individual_syllables
-      string.split(' ').map {|word| Syllabize::Counter.new(word).count_syllables }
+      string.split(' ').map {|word| word.count_syllables }
     end
 
   end
