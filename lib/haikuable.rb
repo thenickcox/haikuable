@@ -9,6 +9,7 @@ module Haikuable
     def initialize(string)
       @string      = string
       @line_counts = { line1: 0, line2: 0, line3: 0 }
+      raise ArgumentError.new('must be called on a string') unless string.is_a?(String)
     end
 
     def is_haiku?

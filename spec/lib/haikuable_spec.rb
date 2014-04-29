@@ -4,6 +4,13 @@ describe Haikuable::Checker do
   describe '#is_haiku?' do
     subject { Haikuable::Checker.new(string).is_haiku? }
 
+    context 'not a string' do
+      let(:string) { 7 }
+      it 'raises an error' do
+        expect { subject }.to raise_error ArgumentError
+      end
+    end
+
     context 'not 17 syllables' do
       context 'too few' do
         let(:string) { 'I like cheese' }
